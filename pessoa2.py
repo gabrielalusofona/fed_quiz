@@ -9,7 +9,7 @@ with open('questions.json', 'r') as file:
 question_dict = {
     # List comprehension
     # [ expression for a_value in a_collection if condition ]
-    "questions": [item["question"] for item in data["questions"]]
+    f"Q{i+1}": item["Question"] for i, item in enumerate(data["questions"])
 }
 
 print("Questions successfully inserted into questions_dict")

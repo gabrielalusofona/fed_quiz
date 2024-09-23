@@ -1,1 +1,1 @@
-#teste
+#Crie uma função que verifique se as respostas estão corretas ou não;

@@ -12,4 +12,55 @@
 "answer": "A) Lisboa"}, 
 {"Question": "Quem pintou a Mona Lisa?", 
 "options": ["A) Leonardo da Vinci", "B) Mochelangelo", "C) Rafael", "D) Van Gogh"], 
-"answer": "A) Leonardo da Vinci"}]
+"answer": "A) Leonardo da Vinci"},
+    {
+        "Question": "Qual e o planeta mais proximo do Sol?",
+        "options": [
+            "a) Terra",
+            "b) Venus",
+            "c) Marte",
+            "d) Mercurio"
+        ],
+        "answer": "d) Mercurio"
+    },    
+    {
+        "Question": "Qual e a capital de Franca?",
+        "options": [
+            "a) Paris",
+            "b) Londres",
+            "c) Berlin",
+            "d) Madrid"
+        ],
+        "answer": "a) Paris"
+    },
+    {
+        "Question": "Qual e o maior oceano da Terra?",
+        "options": [
+            "a) Atlantico",
+            "b) Indico",
+            "c) Pacifico",
+            "d) Artico"
+        ],
+        "answer": "c) Pacifico"
+    },
+    {
+        "Question": "Quem escreveu 'Dom Quixote'?",
+        "options": [
+            "a) William Shakespeare",
+            "b) Miguel de Cervantes",
+            "c) Gabriel Garcia Marquez",
+            "d) Dante Alighieri"
+        ],
+        "answer": "b) Miguel de Cervantes"
+    },
+    {
+        "Question": "Em que ano Portugal ganhou o Europeu?",
+        "options": [
+            "a) 2008",
+            "b) 2020",
+            "c) 2016",
+            "d) 2012"
+        ],
+        "answer": "b) 2016"
+    }
+]

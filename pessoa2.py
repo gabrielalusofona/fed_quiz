@@ -2,14 +2,18 @@ import json
 
 print("Inserting questions into questions_dict...")
 # Load json file
-with open('questions.json', 'r') as file:
+with open('questions.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
     
-# Create a question dictionary with only the questions
+# Crear un diccionario a partir de los datos
 question_dict = {
-    # List comprehension
-    # [ expression for a_value in a_collection if condition ]
-    f"Q{i+1}": item["Question"] for i, item in enumerate(data["questions"])
+    f"Q{i+1}": {
+        "question": item["Question"],
+        "options": item["options"],
+        "answer": item.get("answer") or item.get("Resposta")  # manejar 'answer' o 'Resposta'
+    }
+    for i, item in enumerate(data)
 }
 
-print("Questions successfully inserted into questions_dict")
+# Imprimir el diccionario con formato legible
+print(json.dumps(question_dict, indent=4, ensure_ascii=False))

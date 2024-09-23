@@ -1,5 +1,5 @@
 [{"Question": "Qual o maior planeta do sistema solar?",
-"Opções": ["A) Marte", "B) Jupiter", "C) Terra", "D) Saturno"], 
+"options": ["A) Marte", "B) Jupiter", "C) Terra", "D) Saturno"], 
 "Resposta": "B) Jupiter"},
 {"Question": "Qual o melhor clube de Portugal?", 
 "options": ["A) FCP", "B) SLB", "C) BFC", "D) SCP"], 

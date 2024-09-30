@@ -1,4 +1,4 @@
-def scores(corretas, fornecidas):
+def scores(right_answers):
 
     total = 5
     acertos = 3

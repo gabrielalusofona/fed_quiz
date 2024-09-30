@@ -59,6 +59,6 @@ if __name__ == "__main__":
     questions = load_questions("questions.json")
     answers = get_user_response(questions)
     right_answers = check_answers(questions, answers)
-    print("A sua nota é: ", scores(right_answers))
+    print("O seu resultado é é: ", scores(right_answers))
 
 

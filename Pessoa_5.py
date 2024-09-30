@@ -12,7 +12,7 @@ def check_answers(real, utilizador):
         right_ans = right_ans["answer"]
 
         for i in range(0, len(utilizador)):
-            if right_ans == utilizador[i][1].replace(' ', '').lower():
+            if right_ans == utilizador[i].values().replace(' ', '').lower():
                 point +=1
 
 
